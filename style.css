@@ -359,8 +359,10 @@ input[type="checkbox"]:checked ~ .modal-overlay .modal9 {
 
     .li-kiri,
     .li-kanan {
-        font-size: 6px; /* perkecil lagi */
-        letter-spacing: 0; /* hapus jarak antar huruf */
+        list-style: none;
+        margin: 1px;
+        padding: 20px;
+        font-size: 10px;
     }
 
     .ul-kiri {
