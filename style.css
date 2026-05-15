@@ -280,9 +280,9 @@ input[type="checkbox"]:checked ~ .modal-overlay .modal9 {
     justify-content: center;
     align-items: center;
     user-select: none;
-    font-family: "Press Start 2P";
     position: absolute;
     top: 210px;
+    font-family: "Langar", system-ui;
 }
 
 .p-modal {
@@ -391,21 +391,25 @@ input[type="checkbox"]:checked ~ .modal-overlay .modal9 {
     .modal9 {
         width: 95%;
         height: auto;
-        min-height: 500px;
+        min-height: 768px;
+        position: relative;
     }
 
     #h2-modal {
-        position: static;
+        position: absolute;
         margin-top: 20px;
         text-align: center;
         font-size: 18px;
+        font-family: "Langar", system-ui;
+        top: 145px;
     }
 
     .p-modal {
-        position: static;
+        position: absolute;
+        top: 180px;
         margin: 20px;
         font-size: 16px;
-        text-align: center;
+        text-align: justify;
     }
 
     .container-foto-slide {
@@ -421,6 +425,21 @@ input[type="checkbox"]:checked ~ .modal-overlay .modal9 {
     .stickerp1-3 {
         width: 70px;
         height: 70px;
+    }
+
+    .stickerp1-1 {
+        position: absolute;
+        top: 120px;
+        left: -15px;
+    }
+
+    .stickerp1-2 {
+        top: -30px;
+    }
+
+    .stickerp1-3 {
+        right: -10px;
+        top: 120px;
     }
 
 }
