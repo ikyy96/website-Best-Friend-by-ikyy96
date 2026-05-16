@@ -380,6 +380,10 @@ input[type="checkbox"]:checked ~ .modal-overlay .modal9 {
         padding: 20px;
     }
 
+    #h2-card {
+        font-size: 17px;
+    }
+
     .modal1,
     .modal2,
     .modal3,
@@ -391,7 +395,7 @@ input[type="checkbox"]:checked ~ .modal-overlay .modal9 {
     .modal9 {
         width: 95%;
         height: auto;
-        min-height: 768px;
+        min-height: 600px;
         position: relative;
     }
 
